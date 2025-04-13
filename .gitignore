@@ -2,46 +2,23 @@
 **/target/
 **/build/
 
-# Archivos de configuración específicos del sistema
-.DS_Store
-Thumbs.db
-
 # Archivos de log
 *.log
 
-# IDEs
+# Archivos de configuración
 .idea/
 *.iml
-*.ipr
-*.iws
-
-# IntelliJ-specific
-out/
-
-# Maven Wrapper (opcional, si no quieres subir el wrapper)
 .mvn/
 mvnw
 mvnw.cmd
 
-# Configuración de sistema
+# Temporales
+*.swp
+*.tmp
+*~
+.DS_Store
+Thumbs.db
+
+# Archivos binarios
 *.class
 *.jar
-*.war
-
-# Archivos temporales
-*.swp
-*.swo
-*~
-
-# Sistema operativo
-*.bak
-*.tmp
-
-# Otros binarios
-*.exe
-*.dll
-*.so
-*.dylib
-
-# Carpeta src raíz (si no es parte de un microservicio real)
-src/

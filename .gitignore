@@ -1,33 +1,47 @@
-HELP.md
-target/
-!.mvn/wrapper/maven-wrapper.jar
-!**/src/main/**/target/
-!**/src/test/**/target/
+# Ignorar carpetas de compilación
+**/target/
+**/build/
 
-### STS ###
-.apt_generated
-.classpath
-.factorypath
-.project
-.settings
-.springBeans
-.sts4-cache
+# Archivos de configuración específicos del sistema
+.DS_Store
+Thumbs.db
 
-### IntelliJ IDEA ###
-.idea
-*.iws
+# Archivos de log
+*.log
+
+# IDEs
+.idea/
 *.iml
 *.ipr
+*.iws
 
-### NetBeans ###
-/nbproject/private/
-/nbbuild/
-/dist/
-/nbdist/
-/.nb-gradle/
-build/
-!**/src/main/**/build/
-!**/src/test/**/build/
+# IntelliJ-specific
+out/
 
-### VS Code ###
-.vscode/
+# Maven Wrapper (opcional, si no quieres subir el wrapper)
+.mvn/
+mvnw
+mvnw.cmd
+
+# Configuración de sistema
+*.class
+*.jar
+*.war
+
+# Archivos temporales
+*.swp
+*.swo
+*~
+
+# Sistema operativo
+*.bak
+*.tmp
+
+# Otros binarios
+*.exe
+*.dll
+*.so
+*.dylib
+
+# Carpeta src raíz (si no es parte de un microservicio real)
+src/
